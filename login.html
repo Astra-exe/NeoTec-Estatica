@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Login.css">
+    <link rel="icon" type="image/jpg" href="Images/LogoNeoTec.png">
+    <script src="https://kit.fontawesome.com/3cf8b15ac1.js" crossorigin="anonymous"></script>
+    <title>Inicia sesión</title>
+</head>
+<body>
+    <div class="overlay">
+        <form>
+           <!--   con = Container  para los items del form-->
+           <div class="con">
+           <!--     inicio del contenido en el headre del LOGIN  -->
+           <header class="head-form">
+             <a href="index.html"> <h2>NeoTec</h2> </a>
+              <p>Inicia sesión usando tu correo y contraseña</p>
+           </header>
+           <div class="field-set">
+              <!--   correo -->
+              <div class="mail">
+               <span class="input-item">
+                  <i class="fa fa-user-circle"></i>
+                </span>
+               <!--   introducir correo-->
+                <input class="form-input" id="txt-input" type="email" placeholder="e-mail" required>
+              </div>
+               
+             <div class="password">
+               <span class="input-item">
+                  <i class="fa fa-key"></i>
+                 </span>
+
+                <!--   Password Input-->
+                <input class="form-input" id="txt-input" type="password" placeholder="contraseña" required>
+               
+             </div>
+              
+        <!--Sección de botones -->
+        <!--botón de login-->
+              <input type="submit" class="log-in" value="Iniciar Sesión">
+           </div>
+          
+        <!--  Botones extra al login -->
+           <div class="other">
+        <!--  Olvidaste tu contraseña-->
+              <button class="btn submits frgt-pass">¿Olvidaste tu contraseña?</button>
+        <!--Registrarse -->
+              <button class="btn submits sign-up" onclick="location.href='registro.html'" >Registrate
+        <!--Sign Up font icon -->
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+              </button>
+           </div>
+             
+        <!--   Fin del container  -->
+          </div>
+          
+          <!-- fin del form -->
+        </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="icon" type="image/jpg" href="./Images/LogoNeoTec.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>NeoTec</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./Images/LogoNeoTecWhite.png" alt="logo Neotec" class="logo">
+            <a href="#Inicio">Inicio</a>
+            <a href="./registro.html">Clientes</a>
+            <a href="./Catalogo/pedidos.html">Catálogo</a>
+            <a href="#about">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+            <button class="log-in" onclick="location.href='login.html'">Iniciar sesión</button>
+        </nav>
+        <section class="textos-header" id="Inicio">
+            <h1>Somos un e-commerce dedicado a la tecnología</h1>
+            <h2>No compras tecnología, adquieres sueños y nuevas oportunidades</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros" id="about">
+            <h2 class="titulo">Acerca de nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="./Images/about-us.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3> <span>1</span> Los mejores productos </h3>
+                    <p>NeoTec con más de treinta años en el mercado, se destaca por su gran calidad de productos a un precio increible, siempre preocupandonos por los creadores, que son los que le dan sentido a nuestra misión.</p>
+                    <h3> <span>2</span> Nuestras sucursales </h3>
+                    <p>Con más de 20 sucursales a lo largo de todo el territorio nacional, con sedes en: Guanjuato, Ciudad de México, Nuevo León, Chihuahua, Mexicali y Guadalajara, siendo la tienda que más expansión tiene en México.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestro catálogo</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="./Images/img1.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro Catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img2.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img3.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img4.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img5.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img6.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img7.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./Images/img8.PNG" alt="">
+                        <div class="hover-galeria">
+                            <img src="./Images/icono1.png" alt="">
+                            <p>Nuestro catálogo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <h2 class="titulo">¿Tienes preguntas? Contáctanos</h2>
+            <div class="cards">
+                <div class="card">
+                    <form class="footer__form" action="/enviado_email" method="POST">
+                        <input class="form-input" type="text" name="Nombre" placeholder="Escribe tu nombre" required>
+                        <input class="form-input" type="mail" name="Correo" placeholder="alguien@dominio.com" required>
+                        <textarea class="form-textarea" id="textoEmail" name="textoEmail" rows="10" cols="45" maxlength="255" placeholder="Escribe tu mensaje..." required></textarea>
+                        <input type="submit" class="log-in" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>4623085130</p>
+            </div>
+            <div class="content-foo">
+                <h4>E-mail</h4>
+                <p>contacto@NeoTec.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Guanjuato, México.</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; NeoTec | Design with 💓 by <a href="https://www.instagram.com/astra_exe/" target="blank_">Astra</a></h2>
+    </footer>
+</body>
+</html>
