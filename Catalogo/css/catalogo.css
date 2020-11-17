@@ -616,7 +616,7 @@ form {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 40%;
+    margin-top: 0;
     border-radius: 0;
     box-shadow: none;
     margin-top: 0%;
@@ -648,9 +648,7 @@ form {
 
 .form-input{
     width: 260px;
-    height: 40px;
-  
-    margin-top: 2%;
+    height: 30px;
     margin-bottom: .5em;
     padding: 15px;
     
@@ -706,6 +704,5 @@ label{
     
     .form-textarea{
         width: 14em;
-    }
     }
 }
