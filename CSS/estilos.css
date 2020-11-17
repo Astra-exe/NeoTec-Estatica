@@ -8,10 +8,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-textarea{
-    resize: none;
-}
-
 .contenedor{
     padding: 2em;
     width: 90%;
@@ -102,6 +98,7 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 0;
 }
 
 .textos-header h1{
@@ -248,7 +245,7 @@ header .textos-header{
 }
 
 .form-input{
-    width: 405px;
+    width: 22.5em;
     height: 50px;
     margin-top: 2%;
     padding: 15px;
@@ -261,6 +258,7 @@ header .textos-header{
 }
 
 .form-textarea{
+    width: 22.5em;
     margin-top: 2%;
     padding: 15px;
     font-size: 16px;
@@ -311,7 +309,13 @@ footer{
     color: #9e9797;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1310px){
+    nav button{
+        margin-left: .3em;
+    }
+}
+
+@media screen and (max-width:1024px){
     header{
         background-position: center;
     }
@@ -352,6 +356,16 @@ footer{
         margin-bottom: 30px;
     }
 
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav button{
+        margin-left: .3em;
+        margin-top: 0,5em;
+    }
+}
 @media screen and (max-width:500px){
     nav{
         text-align: center;
@@ -363,11 +377,15 @@ footer{
     }
 
     .logo{
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
         margin-left: 0;
     }
 
+    .textos-header{
+        margin: auto;
+        padding: 0;
+    }
     .textos-header h1{
         font-size: 35px;
     }
