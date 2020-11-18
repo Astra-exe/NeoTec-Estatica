@@ -41,7 +41,7 @@
 			'username'			=> array($real_name_inputs[0],0,35),
 			'name'				=> array($real_name_inputs[1],0,35),
 			'lastname'			=> array($real_name_inputs[2],0,35),
-			'email'				=> array($real_name_inputs[3],2,256),
+			'email'				=> array($real_name_inputs[3],2,50),
 			'password'			=> array($real_name_inputs[4],0,35),
 			'password-confirm'	=> array($real_name_inputs[5],0,35),
 			'cp'				=> array($real_name_inputs[6],1,5),

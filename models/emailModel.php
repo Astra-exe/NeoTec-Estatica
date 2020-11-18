@@ -64,7 +64,7 @@
 						# "execute()" ejecuta una sentencia SQL preparada.
 						$query_result = $this -> connection_instance -> prepare($query_get_email);
 						$query_result -> execute();
-						$this -> service_email_data = $query_result -> fetch(PDO::FETCH_NUM);
+						$this -> service_email_data = $query_result -> fetch(PDO::FETCH_NUM);	
 						unset($query_result);
 					}
 					catch(PDOException $e){
@@ -95,7 +95,6 @@
 							# Habilita la autentificación en SMTP.
 							$this -> email_obj -> SMTPAuth = true;
 														
-							# Establece si el protocolo de cifrado TLS o SSL.
 							if($this -> service_email_data[4]){
 								$this -> email_obj -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 							}

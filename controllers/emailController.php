@@ -30,7 +30,7 @@
 		# Define alias para los nombres de los inputs del formulario, el tipo de dato y la longitud máxima para ese campo.
 		$alias_inputs = array(
 			'name'			=> array($real_name_inputs[0],0,35),
-			'email'			=> array($real_name_inputs[1],2,256),
+			'email'			=> array($real_name_inputs[1],2,50),
 			'body-email'	=> array($real_name_inputs[2],0,256)
 		);
 		
