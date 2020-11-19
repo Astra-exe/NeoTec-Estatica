@@ -1,7 +1,7 @@
 <?php
 
 /*
-   Copyright © 2020 Ricardo García Jiménez, Juan José Ramírez Martínez,
+   Copyright © 2020 Ricardo García Jiménez, Juan José Ramírez López,
                     Esteban López Elizarraraz
 
    Licensed under the Apache License, Version 2.0 (the "License");
