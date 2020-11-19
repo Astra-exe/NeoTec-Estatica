@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS company_email (
 
 # Se utiliza un nivel de cifrado alto, las contraseñas se almacenan como un conjunto de caracteres intelegibles.
 
-INSERT INTO company_email VALUES('durmonsito22@gmail.com',AES_ENCRYPT('durmonnarnia22', 't(Z2G[x;7$xlJ}y'),'smtp.gmail.com',587,TRUE);
+INSERT INTO company_email VALUES('durmonsito22@gmail.com',AES_ENCRYPT('PASSWORD_EMAIL', 't(Z2G[x;7$xlJ}y'),'smtp.gmail.com',587,TRUE);
 
 # SELECT email_address,AES_DECRYPT(email_password, 't(Z2G[x;7$xlJ}y') FROM company_email;
 # SELECT email_address,AES_DECRYPT(email_password,KEY),email_smtp,email_port,email_starttls FROM company_email WHERE email_address=PARAMETRO;
